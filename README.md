@@ -12,6 +12,7 @@
 
 ### 类的基本使用
     消息发布：
+    require_once __DIR__.'/rabbit.php';
     $config = [
         'amqp'=>[
             'host'=>'127.0.0.1',
